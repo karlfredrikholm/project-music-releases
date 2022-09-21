@@ -9,13 +9,27 @@ console.log(data);
 
 export const App = () => {
   return (
-    <div>
-      {}
-      <Header />
-      <CoverImg />
-      <ArtistName />
-      <AlbumName />
-    </div>
+    <div className="App">
+      <div className='app-body'>
+        {data.albums.items.map(item => {
+        return <div className="album-card"key={item.id}>
+          <img src={item.images[1].url} className="album-image"/>
+          <h2 className="album-name">{item.name}</h2>
+          <p className="artist-name">{item.artists[0].name}</p> 
+          <div className=""></div>
+          </div>
+      })}
+      </div>
+     </div>
+    
   );
 }
 
+// {}
+// <Header />
+// <CoverImg />
+// <ArtistName />
+// <AlbumName />
+
+// 
+{/* <AlbumName name={data.albums} /> */}
