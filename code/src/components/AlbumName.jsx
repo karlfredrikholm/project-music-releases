@@ -1,11 +1,13 @@
 import React from 'react'
 
 export const AlbumName = (props) => {
+
   return (
-    <div className="album-name"> 
-      <h2 href={props.item.external_urls.spotify}>
+      <h2 className='album-name'>
+        <span className='underline'>
         {props.item.name} 
+        </span>
       </h2>
-      </div>
   )
+
 }
