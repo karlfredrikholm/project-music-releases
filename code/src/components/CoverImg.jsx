@@ -6,7 +6,8 @@ export const CoverImg = (props) => {
 
   <div className='cover-image-container'>
 
-      <div className='cover-image' 
+      <a href={props.item.external_urls.spotify}>
+        <div className='cover-image' 
         style={{
         backgroundImage: `url(${props.item.images[0].url})`,
         backgroundSize: 'cover',
@@ -23,6 +24,7 @@ export const CoverImg = (props) => {
             </div>
 
       </div>
+      </a>
 
   </div>
       )

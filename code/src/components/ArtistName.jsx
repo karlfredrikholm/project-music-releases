@@ -2,7 +2,7 @@ import React from 'react';
 
 export const ArtistName = (props) =>{
   
-  return(
+  return (
     <>
      {props.item.artists.map((artist, index) => {
         return (
