@@ -11,3 +11,89 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+header {
+  background-color: #000000;
+  padding: 1%;
+}
+
+h1 { 
+  font-size: 22px; 
+  font-family: Helvetica, sans-serif;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px;
+  margin: 10px;
+}
+
+header hr {
+  
+  border: 1px solid rgba(71, 71, 71, 0.514);
+}
+
+.app-body {
+  background-color:#000000;
+  padding: 3%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.album-card {
+  margin: 2%;
+  border-radius: 10px;
+  padding: 1%;
+  margin-bottom: 1%;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  
+}
+
+.album-card:hover {
+  opacity: 50%;
+}
+
+.album-image {
+  width: 100%;
+  aspect-ratio: 1;
+  height: 75%;
+}
+
+.album-image > img {
+  width: 100%;
+}
+
+.album-name {
+  display: inline;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: "Droid Sans", sans-serif;
+  margin-left: 15px;
+  padding-bottom: 5px;
+  
+}
+
+.artist-name {
+  display: inline;
+  
+  font-size: 14px;
+  font-family: Helvetica, sans-serif;
+  padding-bottom: 5px;
+  
+  cursor:default;
+}
+
+.artist-name a {
+  text-decoration: none; 
+  color: #a0a0a0;
+}
+
+
+
+.icons {
+  width: 30px;
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  filter: invert();
+}

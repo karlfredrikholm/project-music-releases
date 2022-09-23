@@ -1,11 +1,10 @@
 import React from 'react';
-const Header= (props) =>{
+
+export const Header = () =>{
   
-  return(
-    <>
-
-    </>
-  )
+return <header>
+  <h1 className='title'>New albums & singles</h1>
+  <hr className='line'></hr>
+</header>
+   
 }
-
-export default Header;

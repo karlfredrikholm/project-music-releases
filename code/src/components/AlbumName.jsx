@@ -1,11 +1,11 @@
 import React from 'react'
 
-export default function AlbumName(props) {
+export const AlbumName = (props) => {
   return (
-    <div>
-     {props.albums.items[0].images[0]}
-
-    </div>
+    <div className="album-name"> 
+      <h2 href={props.item.external_urls.spotify}>
+        {props.item.name} 
+      </h2>
+      </div>
   )
 }
-
