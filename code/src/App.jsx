@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Header } from './components/Header';
-import { AlbumList } from './components/Albumlist';
+import { AlbumList } from './components/AlbumList';
 
 
 
