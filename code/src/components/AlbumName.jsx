@@ -8,6 +8,6 @@ export const AlbumName = (props) => {
         {props.item.name} 
         </span>
       </h2>
-  )
+ )
 
 }
