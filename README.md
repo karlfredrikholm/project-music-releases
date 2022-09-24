@@ -1,4 +1,6 @@
 # Music Releases
+This is a single page application which shoes an album and single releases. 
+This app made with React.js framwork. 
 
 * We made 5 files and import all of them to one main file (Header.jsx) and from import Header to App.jsx.  
 * We have one cover image and Album name and Artist name. 
