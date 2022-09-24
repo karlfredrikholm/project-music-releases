@@ -1,6 +1,6 @@
-This is a single page application which shows new album and single releases. The app made with React.js framwork.
+This is a single page application that shows new album and single releases. The app made with React.js framwork.
 
-We made 5 components and mounted three of them (CoverImg, AlbumName & ArtistName) to AlbumList.jsx, and then we import Header and AlbumList to App.jsx.
+We made 5 components and mounted three of them (CoverImg, AlbumName & ArtistName) in AlbumList.jsx, and then we import Header and AlbumList to App.jsx.
 We have one cover image and Album name and Artist name.
 In the album we made a link to Spotify. And by Hovering on the cover image the icons are displaying.
 The play icon has an extra hovering effect (transform: scale(1.1)), making it bigger.
