@@ -26,11 +26,4 @@ export const AlbumList = () => {
         ))}
     </section>
   )
-}
-
-// key={item.id}
-
-// <img src={item.images[1].url} className="album-image"/>
-          
-// <p className="artist-name">{item.artists[0].name}</p> 
-// <div className=""></div>
+};

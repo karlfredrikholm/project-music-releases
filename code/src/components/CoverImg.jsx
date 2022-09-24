@@ -2,12 +2,11 @@ import React from 'react'
 
 export const CoverImg = (props) => {
 
-  return (
-
+  return ( 
+  <a href={props.item.external_urls.spotify}>
   <div className='cover-image-container'>
 
-      <a href={props.item.external_urls.spotify}>
-        <div className='cover-image' 
+      <div className='cover-image' 
         style={{
         backgroundImage: `url(${props.item.images[0].url})`,
         backgroundSize: 'cover',
@@ -24,8 +23,9 @@ export const CoverImg = (props) => {
             </div>
 
       </div>
-      </a>
 
   </div>
-      )
+  </a>
+
+      )      
 };
